@@ -1,5 +1,9 @@
-import { Banner } from "./Banner";
+import './banner.css'
+
+const Banner = () => {
+    return (<header className="cabecalho">
+        <img src='/imagens/banner.png' alt='Logo do Organo'/>
+    </header>)
+}
 
 export default Banner
-
-//essa classe serve para eu poder escolher qual componete eu posso escolher exportar, para os componentes não ficarem todos globais
