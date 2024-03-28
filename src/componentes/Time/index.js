@@ -17,9 +17,7 @@ const Time = ({time, colaboradores, aoDeletar}) => {
                 />)}
             </div>
         </section>
-
     )
-
 }
 
 export default Time
